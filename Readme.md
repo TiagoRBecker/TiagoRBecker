@@ -14,8 +14,8 @@
   <img align="center" alt="Tiago-CSS" height="120" width="130" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" />
   <img align="center" alt="Node.js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg">
   <img align="center" alt="Express" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg">
-  <img align="center" alt="NestJS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nestjs/nestjs-plain.svg">
-  <img align="center" alt="Prisma" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/prisma/prisma-plain.svg">
+  <img align="center" alt="NestJS" height="30" width="40" src="https://raw.githubusercontent.com/nestjs/nest/master/logo/logo.svg" />
+ <img align="center" alt="Prisma" height="30" width="40" src="https://raw.githubusercontent.com/prisma/prisma/master/packages/website/public/images/prisma-icon.svg" />
   <img align="center" alt="PostgreSQL" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg">
   <img align="center" alt="Docker" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg">
 
