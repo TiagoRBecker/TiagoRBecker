@@ -21,6 +21,12 @@
 
 </div>
 <br/>
+
+## 🏗️ Arquitetura & Princípios
+- **Arquitetura Hexagonal** – separação de domínio, adaptadores e interfaces  
+- **SOLID** – código modular e manutenível  
+- **Clean Code & Clean Architecture** – código limpo e desacoplado  
+- **Testável e Escalável** – pronto para testes unitários e integração  
 <br/>
   <div align="center"> 
  
