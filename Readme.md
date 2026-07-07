@@ -19,6 +19,8 @@
   <img align="center" alt="Docker" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg">
 
 </div>
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=TiagoRBecker&show_icons=true&theme=default&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TiagoRBecker&layout=compact&hide_border=true)
 <br/>
 
 ## 🏗️ Arquitetura & Princípios
