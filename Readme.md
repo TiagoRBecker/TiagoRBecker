@@ -1,44 +1,60 @@
-<div align="center">
-
 # Olá! Eu sou o Tiago Becker 👋
 
-**Desenvolvedor Fullstack** focado em backend, arquitetura escalável e sistemas em produção
+Desenvolvedor **Full Stack** (Node.js / React) — mantenho em produção, há **4 anos**, um sistema de e-commerce completo para um cliente real: API, storefront e painel administrativo. Gosto de resolver problemas de arquitetura de ponta a ponta, do banco de dados à experiência do usuário.
 
-</div>
-
----
-
-### 🛠️ Stack Principal
-
-<div align="center">
-
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
-![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-
-</div>
+📩 [beckertiago09@gmail.com](mailto:beckertiago09@gmail.com) · 💬 [WhatsApp](https://wa.me/5551995204223)
 
 ---
 
-### 🏗️ Arquitetura & Princípios
+## 🏆 Projeto em destaque — FichaAnamnese (E-commerce em produção)
+
+**[anamnesis-ecommerce-platform](https://github.com/TiagoRBecker/anamnesis-ecommerce-platform)**
+Sistema de e-commerce para venda de documentos digitais na área da saúde, **em produção contínua há 4 anos**, atendendo cliente real — não é um projeto de portfólio, é um sistema que sustenta um negócio de verdade. Composto por API (NestJS), storefront (Next.js) e painel administrativo (Next.js).
+
+**Decisões técnicas que sustentam o sistema:**
+
+- **Autenticação resiliente** — fluxo de refresh de JWT integrado ao NextAuth, evitando que o usuário perca sessão em uso prolongado
+- **Orquestração de pós-pagamento com Strategy Pattern** — lida com múltiplos fluxos de conclusão de pedido de forma desacoplada e extensível
+- **Webhook guard com log de IP** — validação e rastreabilidade de eventos de pagamento recebidos por webhook
+- **Upload multipart para AWS S3** — envio de arquivos grandes (documentos/imagens) de forma confiável e resumível
+- **Login social com detecção de conflito** — Google OAuth tratando colisão de contas já existentes
+- **Cache inteligente no frontend** — React Query com invalidação de cache para manter dados sincronizados sem over-fetching
+- **Carrinho persistente** — Zustand com persistência em localStorage, mantendo o carrinho entre sessões
+- **Interceptor HTTP customizado** — camada Axios própria para tratamento centralizado de erros e renovação de token
+
+> Esse projeto reúne os três repositórios do sistema (API, storefront, admin) apresentados como uma arquitetura única — não como projetos isolados.
+
+---
+
+## 🛠️ Stack
+
+![JavaScript](https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg) ![TypeScript](https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg) ![React](https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg) ![Node.js](https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg) ![NestJS](https://github.com/devicons/devicon/raw/master/icons/nestjs/nestjs-original-wordmark.svg) ![Next.js](https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg) ![Prisma](https://github.com/devicons/devicon/raw/master/icons/prisma/prisma-original.svg) ![PostgreSQL](https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg) ![Docker](https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg)
+
+**Backend:** Node.js, NestJS, PostgreSQL, Prisma, RabbitMQ, Redis, Jest
+**Frontend:** React, Next.js
+**Infra:** Docker, AWS, Nginx, GitHub Actions
+
+## 🏗️ Arquitetura & Princípios
+
+Aplicados no dia a dia, principalmente no case acima:
 
 - **Arquitetura Hexagonal** — separação de domínio, adaptadores e interfaces
-- **SOLID** — código modular, desacoplado e de fácil manutenção
-- **Clean Code & Clean Architecture** — camadas bem definidas (controller/usecase/repository)
-- **Testável e Escalável** — estrutura pronta para testes unitários e de integração
+- **SOLID** — código modular e manutenível
+- **Clean Code & Clean Architecture** — código limpo e desacoplado
+- **Testável e escalável** — cobertura de testes unitários e de integração com Jest
 
 ---
 
+## 📂 Outros projetos
 
+| Projeto | Descrição |
+|---|---|
+| [editorial-management-system](https://github.com/TiagoRBecker/editorial-management-system) | Sistema de gestão editorial |
+| [obrafacil](https://github.com/TiagoRBecker/obrafacil) | Sistema de orçamento (TypeScript) |
+| [case-site-institucional-guedesbampi](https://github.com/TiagoRBecker/case-site-institucional-guedesbampi) | Site institucional |
+| [case-landpage-cotasracias](https://github.com/TiagoRBecker/case-landpage-cotasracias) | Landing page |
+| [case-landpage-dividas](https://github.com/TiagoRBecker/case-landpage-dividas) | Landing page |
+
+---
+
+📍 Brasil · Atendimento remoto
