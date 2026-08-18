@@ -72,14 +72,15 @@ O projeto reúne três aplicações independentes — **API, storefront e painel
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" width="40" height="40" alt="Jest" />
 </p>
 
-### Frontend
 
+### Frontend
 <p>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" height="40" alt="React" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="40" height="40" alt="Next.js" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/reactquery/reactquery-original.svg" width="40" height="40" alt="React Query" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/zustand/zustand-original.svg" width="40" height="40" alt="Zustand" />
+  <img src="https://cdn.simpleicons.org/reactquery/FF4154" width="40" height="40" alt="React Query" />
+  <img src="https://cdn.simpleicons.org/zustand/000000" width="40" height="40" alt="Zustand" />
 </p>
+
 
 ### Infraestrutura
 
