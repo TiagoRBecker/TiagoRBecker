@@ -1,72 +1,138 @@
-# Olá! Eu sou o Tiago Becker 👋
+# Tiago Becker
 
-Desenvolvedor **Full Stack** (Node.js / React) — mantenho em produção, há **4 anos**, um sistema de e-commerce completo para um cliente real: API, storefront e painel administrativo. Gosto de resolver problemas de arquitetura de ponta a ponta, do banco de dados à experiência do usuário.
+**Full Stack Developer | Node.js · TypeScript · React · Next.js**
 
-📩 [beckertiago09@gmail.com](mailto:beckertiago09@gmail.com) · 💬 [WhatsApp](https://wa.me/5551995204223) · 🌐 [Portfolio](https://tiagobecker.vercel.app)
+Desenvolvedor Full Stack com experiência prática na construção, evolução e manutenção de aplicações web em produção.
 
----
+Atuo principalmente com **Node.js, TypeScript, NestJS, React e Next.js**, trabalhando de ponta a ponta no desenvolvimento de sistemas: arquitetura, APIs, banco de dados, autenticação, integrações, frontend, testes e infraestrutura.
 
-## 🏆 Projeto em destaque — FichaAnamnese (E-commerce em produção)
+Nos últimos anos, venho trabalhando diretamente na evolução de um **e-commerce utilizado por um cliente real e mantido em produção há mais de 4 anos**, participando das decisões técnicas e da implementação de diferentes partes da plataforma.
 
-**[anamnesis-ecommerce-platform](https://github.com/TiagoRBecker/anamnesis-ecommerce-platform)**
-Sistema de e-commerce para venda de documentos digitais na área da saúde, **em produção contínua há 4 anos**, atendendo cliente real — não é um projeto de portfólio, é um sistema que sustenta um negócio de verdade. Composto por API (NestJS), storefront (Next.js) e painel administrativo (Next.js).
+Tenho interesse especial em **arquitetura de software, backend, sistemas distribuídos, integração entre serviços e desenvolvimento de aplicações escaláveis e sustentáveis**.
 
-**Decisões técnicas que sustentam o sistema:**
-
-- **Autenticação resiliente** — fluxo de refresh de JWT integrado ao NextAuth, evitando que o usuário perca sessão em uso prolongado
-- **Orquestração de pós-pagamento com Strategy Pattern** — lida com múltiplos fluxos de conclusão de pedido de forma desacoplada e extensível
-- **Webhook guard com log de IP** — validação e rastreabilidade de eventos de pagamento recebidos por webhook
-- **Upload multipart para AWS S3** — envio de arquivos grandes (documentos/imagens) de forma confiável e resumível
-- **Login social com detecção de conflito** — Google OAuth tratando colisão de contas já existentes
-- **Cache inteligente no frontend** — React Query com invalidação de cache para manter dados sincronizados sem over-fetching
-- **Carrinho persistente** — Zustand com persistência em localStorage, mantendo o carrinho entre sessões
-- **Interceptor HTTP customizado** — camada Axios própria para tratamento centralizado de erros e renovação de token
-
-> Esse projeto reúne os três repositórios do sistema (API, storefront, admin) apresentados como uma arquitetura única — não como projetos isolados.
+**Contato:** [beckertiago09@gmail.com](mailto:beckertiago09@gmail.com)
+**WhatsApp:** [wa.me/5551995204223](https://wa.me/5551995204223)
+**Portfólio:** [tiagobecker.vercel.app](https://tiagobecker.vercel.app)
 
 ---
 
-## 🛠️ Stack
+## Experiência prática
 
-<p align="left">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" height="28" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" height="28" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" height="28" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" height="28" />
-  <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" height="28" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" height="28" />
-  <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" height="28" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" height="28" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" height="28" />
-</p>
+### FichaAnamnese — E-commerce em produção
 
-**Backend:** Node.js, NestJS, PostgreSQL, Prisma, RabbitMQ, Redis, Jest  
-**Frontend:** React, Next.js  
-**Infra:** Docker, AWS, Nginx, GitHub Actions
+[anamnesis-ecommerce-platform](https://github.com/TiagoRBecker/anamnesis-ecommerce-platform)
 
----
+Plataforma de e-commerce para comercialização de documentos digitais na área da saúde, desenvolvida para um cliente real e mantida em produção continuamente há mais de 4 anos.
 
-## 🏗️ Arquitetura & Princípios
+O sistema é composto por **API, storefront e painel administrativo**, formando uma aplicação completa que envolve diferentes camadas da arquitetura.
 
-Aplicados no dia a dia, principalmente no case acima:
+Durante sua evolução, trabalhei em problemas relacionados a autenticação, pagamentos, armazenamento de arquivos, gerenciamento de estado, cache, integração com serviços externos e organização da arquitetura.
 
-- **Arquitetura Hexagonal** — separação de domínio, adaptadores e interfaces
-- **SOLID** — código modular e manutenível
-- **Clean Code & Clean Architecture** — código limpo e desacoplado
-- **Testável e escalável** — cobertura de testes unitários e de integração com Jest
+### Principais desafios e soluções
 
----
+* **Autenticação e gerenciamento de sessão**
+  Implementação de fluxo de refresh de JWT integrado ao NextAuth, permitindo renovação da sessão sem interromper a experiência do usuário.
 
-## 📂 Outros projetos
+* **Processamento pós-pagamento**
+  Utilização de Strategy Pattern para organizar diferentes fluxos de conclusão de pedidos, mantendo a lógica desacoplada e facilitando a extensão do sistema.
 
-| Projeto | Descrição |
-|---|---|
-| [editorial-management-system](https://github.com/TiagoRBecker/editorial-management-system) | Sistema editorial com controle de publicações, autores e fluxo de aprovação — NestJS + PostgreSQL |
-| [obrafacil](https://github.com/TiagoRBecker/obrafacil) | Sistema de orçamento para construção civil com geração de propostas — TypeScript + Node.js |
-| [case-site-institucional-guedesbampi](https://github.com/TiagoRBecker/case-site-institucional-guedesbampi) | Site institucional com SSR, rotas dinâmicas e SEO — Next.js + Nodemailer |
-| [case-landpage-cotasracias](https://github.com/TiagoRBecker/case-landpage-cotasracias) | Landing page de captação de leads para consórcio — foco em conversão |
-| [case-landpage-dividas](https://github.com/TiagoRBecker/case-landpage-dividas) | Landing page de captação de leads para advocacia — Next.js + SEO |
+* **Webhooks de pagamento**
+  Implementação de validação e rastreabilidade das requisições recebidas por webhook, incluindo registro do endereço IP de origem.
+
+* **Armazenamento de arquivos**
+  Integração com AWS S3 para upload e gerenciamento de documentos e imagens utilizados pela plataforma.
+
+* **Autenticação social**
+  Integração com Google OAuth e tratamento de conflitos entre contas sociais e contas previamente cadastradas.
+
+* **Gerenciamento de estado e cache**
+  Utilização de Zustand para estado persistente do carrinho e React Query para gerenciamento de cache, invalidação e sincronização de dados.
+
+* **Camada HTTP**
+  Desenvolvimento de interceptor Axios próprio para centralizar tratamento de erros, autenticação e renovação de tokens.
+
+O projeto reúne três aplicações independentes — **API, storefront e painel administrativo** — organizadas como partes de uma mesma plataforma.
 
 ---
 
-📍 Brasil · Atendimento remoto
+## Stack principal
+
+### Backend
+
+* Node.js
+* TypeScript
+* NestJS
+* PostgreSQL
+* Prisma
+* Redis
+* RabbitMQ
+* Jest
+
+### Frontend
+
+* React
+* Next.js
+* React Query
+* Zustand
+
+### Infraestrutura
+
+* Docker
+* AWS
+* Nginx
+* GitHub Actions
+
+---
+
+## Engenharia de Software
+
+Procuro aplicar princípios de engenharia que contribuam para sistemas mais fáceis de entender, testar e evoluir.
+
+Entre as práticas utilizadas:
+
+* Arquitetura Hexagonal
+* Clean Architecture
+* SOLID
+* Design Patterns
+* Separação de responsabilidades
+* Código orientado à testabilidade
+* Testes unitários e de integração
+* Desenvolvimento orientado a manutenção e evolução do sistema
+
+Mais do que seguir padrões por convenção, procuro entender **o problema que cada decisão resolve e o impacto que ela terá na evolução da aplicação**.
+
+---
+
+## Outros projetos
+
+Além do projeto principal, também desenvolvi aplicações e soluções para diferentes necessidades de negócio.
+
+| Projeto                                                                                                    | Descrição                                                                                                                 |
+| ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| [editorial-management-system](https://github.com/TiagoRBecker/editorial-management-system)                 | Sistema editorial para gerenciamento de publicações, autores e fluxo de aprovação, desenvolvido com NestJS e PostgreSQL.  |
+| [obrafacil](https://github.com/TiagoRBecker/obrafacil)                                                     | Sistema de orçamentos para construção civil, incluindo geração de propostas e gerenciamento das informações do orçamento. |
+| [case-site-institucional-guedesbampi](https://github.com/TiagoRBecker/case-site-institucional-guedesbampi) | Site institucional desenvolvido com Next.js, SSR, rotas dinâmicas e recursos de SEO.                                      |
+| [case-landpage-cotasracias](https://github.com/TiagoRBecker/case-landpage-cotasracias)                     | Landing page para captação de leads, desenvolvida com foco em conversão e experiência do usuário.                         |
+| [case-landpage-dividas](https://github.com/TiagoRBecker/case-landpage-dividas)                             | Landing page para captação de leads para o segmento jurídico, utilizando Next.js e estratégias de SEO.                    |
+
+---
+
+## Como trabalho
+
+Gosto de atuar próximo do problema antes de pensar na implementação.
+
+Procuro entender os requisitos, avaliar as restrições existentes e então definir uma solução que faça sentido tanto tecnicamente quanto para o negócio.
+
+Tenho experiência trabalhando em diferentes partes de uma aplicação e gosto especialmente de problemas que envolvem **backend, arquitetura, integração entre serviços e evolução de sistemas existentes**.
+
+Também valorizo código que outro desenvolvedor consiga entender e modificar posteriormente. Para mim, uma solução bem construída não é apenas aquela que funciona hoje, mas aquela que continua fazendo sentido quando o sistema cresce.
+
+---
+
+## Atualmente
+
+Busco oportunidades como **Desenvolvedor Full Stack ou Backend**, especialmente em equipes que valorizem engenharia de software, qualidade técnica e evolução contínua dos produtos.
+
+Tenho interesse em trabalhar em ambientes onde possa contribuir com minha experiência prática e, ao mesmo tempo, continuar evoluindo tecnicamente através de problemas reais e desafios de maior escala.
+
+**Brasil · Disponível para trabalho remoto**
