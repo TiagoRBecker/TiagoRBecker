@@ -2,7 +2,7 @@
 
 Desenvolvedor **Full Stack** (Node.js / React) — mantenho em produção, há **4 anos**, um sistema de e-commerce completo para um cliente real: API, storefront e painel administrativo. Gosto de resolver problemas de arquitetura de ponta a ponta, do banco de dados à experiência do usuário.
 
-📩 [beckertiago09@gmail.com](mailto:beckertiago09@gmail.com) · 💬 [WhatsApp](https://wa.me/5551995204223)
+📩 [beckertiago09@gmail.com](mailto:beckertiago09@gmail.com) · 💬 [WhatsApp](https://wa.me/5551995204223) · 🌐 [Portfolio](https://tiagobecker.vercel.app)
 
 ---
 
@@ -40,9 +40,11 @@ Sistema de e-commerce para venda de documentos digitais na área da saúde, **em
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" height="28" />
 </p>
 
-**Backend:** Node.js, NestJS, PostgreSQL, Prisma, RabbitMQ, Redis, Jest
-**Frontend:** React, Next.js
+**Backend:** Node.js, NestJS, PostgreSQL, Prisma, RabbitMQ, Redis, Jest  
+**Frontend:** React, Next.js  
 **Infra:** Docker, AWS, Nginx, GitHub Actions
+
+---
 
 ## 🏗️ Arquitetura & Princípios
 
@@ -59,11 +61,11 @@ Aplicados no dia a dia, principalmente no case acima:
 
 | Projeto | Descrição |
 |---|---|
-| [editorial-management-system](https://github.com/TiagoRBecker/editorial-management-system) | Sistema de gestão editorial |
-| [obrafacil](https://github.com/TiagoRBecker/obrafacil) | Sistema de orçamento (TypeScript) |
-| [case-site-institucional-guedesbampi](https://github.com/TiagoRBecker/case-site-institucional-guedesbampi) | Site institucional |
-| [case-landpage-cotasracias](https://github.com/TiagoRBecker/case-landpage-cotasracias) | Landing page |
-| [case-landpage-dividas](https://github.com/TiagoRBecker/case-landpage-dividas) | Landing page |
+| [editorial-management-system](https://github.com/TiagoRBecker/editorial-management-system) | Sistema editorial com controle de publicações, autores e fluxo de aprovação — NestJS + PostgreSQL |
+| [obrafacil](https://github.com/TiagoRBecker/obrafacil) | Sistema de orçamento para construção civil com geração de propostas — TypeScript + Node.js |
+| [case-site-institucional-guedesbampi](https://github.com/TiagoRBecker/case-site-institucional-guedesbampi) | Site institucional com SSR, rotas dinâmicas e SEO — Next.js + Nodemailer |
+| [case-landpage-cotasracias](https://github.com/TiagoRBecker/case-landpage-cotasracias) | Landing page de captação de leads para consórcio — foco em conversão |
+| [case-landpage-dividas](https://github.com/TiagoRBecker/case-landpage-dividas) | Landing page de captação de leads para advocacia — Next.js + SEO |
 
 ---
 
